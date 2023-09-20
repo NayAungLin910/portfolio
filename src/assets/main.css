@@ -4,6 +4,7 @@
 
 @layer components {
   .underline-animate {
-    @apply text-sky-500 relative before:absolute before:block before:w-0 before:h-[2px] before:bottom-[-2px] before:left-0 before:bg-sky-500 before:duration-500 hover:before:w-full;
+    @apply text-sky-500 relative before:absolute before:block before:w-0 before:h-[2px] 
+    before:bottom-[-2px] before:left-0 before:bg-sky-500 before:duration-500 hover:before:w-full;
   }
 }
