@@ -7,7 +7,7 @@ import { BIconGithub, BIconTwitter } from 'bootstrap-icons-vue'
   <div class="p-2">
     <div class="flex place-content-center mx-auto">
       <div
-        class="bg-slate-800 hover:bg-slate-700/60 duration-300 p-4 rounded-lg flex items-center md:w-1/2 flex-col md:flex-row gap-3 hover:shadow-lg hover:shadow-slate-700">
+        class="bg-slate-800 hover:bg-slate-700 duration-300 p-4 rounded-lg flex items-center md:w-1/2 flex-col md:flex-row gap-3 hover:shadow-lg hover:shadow-slate-700">
         <div class="flex items-center flex-col min-w-[30%]">
           <img class="rounded-full mx-auto max-w-[8.5rem]" src="/src/assets/img/profile-image.webp" loading="lazy"
             alt="Portfolio Profile Image" />
@@ -47,7 +47,7 @@ import { BIconGithub, BIconTwitter } from 'bootstrap-icons-vue'
     <!-- Section 1 -->
     <section class="my-4 project-card sec-1">
         <a href="https://github.com/NayAungLin910/nightkite" target="_blank"
-          class="bg-slate-800 hover:bg-slate-700/60 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
+          class="bg-slate-800 hover:bg-slate-700 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
           <img
             class="max-w-[22rem] mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
             src="/src/assets/img/nightkite-showcase.gif" loading="lazy"
@@ -55,7 +55,7 @@ import { BIconGithub, BIconTwitter } from 'bootstrap-icons-vue'
           <div class="p-3 text-justify">
             <p class="text-xl mx-auto text-center">
               <span class="underline-animate">
-                NightKite
+                NightKite: An Article Website
               </span>
             </p>
             <p class="mt-2">
@@ -72,7 +72,7 @@ import { BIconGithub, BIconTwitter } from 'bootstrap-icons-vue'
     <!-- Section 2 -->
     <section class="my-4 project-card sec-2 flex place-content-end">
         <a href="https://github.com/NayAungLin910/nightkite" target="_blank"
-          class="bg-slate-800 hover:bg-slate-700/60 duration-300 rounded-lg flex flex-col-reverse items-center md:w-2/3 md:flex-row hover:shadow-lg hover:shadow-slate-700">
+          class="bg-slate-800 hover:bg-slate-700 duration-300 rounded-lg flex flex-col-reverse items-center md:w-2/3 md:flex-row hover:shadow-lg hover:shadow-slate-700">
           <div class="p-3 text-justify">
             <p class="text-xl mx-auto text-center">
               <span class="underline-animate">
@@ -97,7 +97,7 @@ import { BIconGithub, BIconTwitter } from 'bootstrap-icons-vue'
     <!-- Section 3 -->
     <section class="my-4 project-card sec-3">
         <a href="https://github.com/NayAungLin910/nightkite" target="_blank"
-          class="bg-slate-800 hover:bg-slate-700/60 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
+          class="bg-slate-800 hover:bg-slate-700 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
           <img
             class="max-w-[22rem] mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
             src="/src/assets/img/nightkite-showcase.gif" loading="lazy"
@@ -118,6 +118,20 @@ import { BIconGithub, BIconTwitter } from 'bootstrap-icons-vue'
           </div>
         </a>
     </section>
+
+    <!-- Animated Blocks -->
+    <div class="wrapper">
+      <span class="box-1"></span>
+      <span class="box-2"></span>
+      <span class="box-3"></span>
+      <span class="box-4"></span>
+      <span class="box-5"></span>
+      <span class="box-6"></span>
+      <span class="box-7"></span>
+      <span class="box-8"></span>
+      <span class="box-9"></span>
+      <span class="box-10"></span>
+    </div>
 
   </div>
 </template>
