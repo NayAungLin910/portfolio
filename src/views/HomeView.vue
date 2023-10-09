@@ -47,9 +47,11 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
           </div>
         </div>
         <div class="text-justify">
-          Welcome to my portfolio! Hope you are having a nice day 😊! I am just a university student learning
-          passionately about full-stack web development. And so far, it has been a blessing 🤘! Please kindly
-          check out some of the projects I posted on my github repositories below. ありがとうございます 🙇‍♂️!
+          Welcome to my portfolio! Hope you are having a nice day 😊! I have finished attending final year for computing
+          and now I am waiting for graduation around 2024. I have also recently passed Jlpt N2 and also can confidenlty
+          communicate
+          in English at business level. Please kindly check out some of the projects I posted on my github
+          repositories below. ありがとうございます 🙇‍♂️!
         </div>
       </div>
     </div>
