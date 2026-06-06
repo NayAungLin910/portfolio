@@ -46,18 +46,32 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
             </table>
           </div>
         </div>
-        <div class="text-justify">
-          Thanks for checking out my portfolio! Hope you’re having a great day! 😊
+        <div class="text-justify space-y-3 text-sm">
+          <p>
+            Thanks for checking out my portfolio! Hope you’re having a great day! 😊
+          </p>  
 
-          I graduated with a BSc in Computing in 2024 and passed the JLPT N2 in the same year.
-          I can confidently communicate in English and Japanese at a business level.
+          <p class="text-lg font-bold text-blue-600 border-l-4 border-blue-600 pl-3 mt-6">
+            2026 (Current)
+          </p>
+          <p>
+            Enrolled in ECC Computer College, attending system engineering course graduating in 2028, April.
+          </p>
 
-          I also have experience fixing bugs assigned on Backlog in a project built with Nuxt(Vue), consuming APIs from
-          Laravel (PHP).
-          In that project, I actively engaged in communication between Japanese and Myanmar developer teams through
-          Backlog.
+          <p class="text-lg font-bold text-blue-600 border-l-4 border-blue-600 pl-3 mt-6">
+            2025
+          </p>
+          <p>
+            Passed JLPT N1 while attending in ASEAN Japanese Language School in Nagoya.
+          </p>
 
-          Please kindly check out some of my projects below.
+          <p class="text-lg font-bold text-blue-600 border-l-4 border-blue-600 pl-3 mt-6">
+            2024
+          </p>
+          <p>
+            Worked as a frontend developer for 9 months in an outsourcing company in Myanmar, mainly fixing bugs. And also graduated
+            with BSc in Computing in Gusto University.
+          </p>
         </div>
       </div>
     </div>
@@ -71,7 +85,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
           class="max-w-[22rem] h-60 mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
           src="/src/assets/img/mirai_project_screenshot.png" loading="lazy"
           alt="The project NightKite's quick UI showcase gif.">
-        <div class="p-3 text-justify">
+        <div class="p-3 text-justify text-sm">
           <p class="text-xl mx-auto text-center">
             <span class="underline-animate">
               Mirai: School Management System
@@ -91,7 +105,8 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
     </section>
 
     <div class="text-center p-3 mb-7 text-lg bg-slate-800">
-      ⚠️ Please note that the projects below ⬇️ are developed for personal training and are not written for acutal clients nor have they been deployed and used.
+      ⚠️ Please note that the projects below ⬇️ are developed for personal training and are not written for acutal
+      clients nor have they been deployed and used.
     </div>
 
     <!-- Section 2 -->
@@ -102,7 +117,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
           class="max-w-[22rem] mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
           src="/src/assets/img/nightkite-showcase.gif" loading="lazy"
           alt="The project NightKite's quick UI showcase gif.">
-        <div class="p-3 text-justify">
+        <div class="p-3 text-justify text-sm">
           <p class="text-xl mx-auto text-center">
             <span class="underline-animate">
               NightKite: An Article Website
@@ -123,7 +138,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
     <section class="my-4 project-card sec-2 flex">
       <a href="https://github.com/NayAungLin910/nightkite" target="_blank"
         class="bg-slate-800 duration-300 rounded-lg flex flex-col-reverse items-center md:w-2/3 md:flex-row hover:shadow-lg hover:shadow-slate-700">
-        <div class="p-3 text-justify">
+        <div class="p-3 text-justify text-sm">
           <p class="text-xl mx-auto text-center">
             <span class="underline-animate">
               BlueMail: Newsletters and Article Website
@@ -150,7 +165,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
           class="max-w-[22rem] mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
           src="/src/assets/img/connect-showcase.gif" loading="lazy"
           alt="The project NightKite's quick UI showcase gif.">
-        <div class="p-3 text-justify">
+        <div class="p-3 text-justify text-sm">
           <p class="text-xl mx-auto text-center">
             <span class="underline-animate">
               Connect: CRM Web Application
