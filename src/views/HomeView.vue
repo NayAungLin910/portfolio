@@ -1,5 +1,5 @@
-<script setup>
-import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
+  <script setup>
+  import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
 
 </script>
 
@@ -7,7 +7,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
   <div class="p-2">
     <div class="flex place-content-center mx-auto">
       <div
-        class="bg-slate-800 duration-300 p-4 rounded-lg flex items-center md:w-1/2 flex-col gap-3 hover:shadow-lg hover:shadow-slate-700">
+        class="bg-slate-800 duration-300 p-4 rounded-lg flex items-center md:w-1/2 flex-col gap-3 hover:shadow-lg hover:shadow-cyan-500">
         <div class="flex items-center flex-col min-w-[30%]">
           <img class="rounded-xl mx-auto max-w-[8.5rem]" src="/src/assets/img/IMG_0664.jpg" loading="lazy"
             alt="Portfolio Profile Image" />
@@ -49,7 +49,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
         <div class="text-justify space-y-3 text-sm">
           <p>
             Thanks for checking out my portfolio! Hope you’re having a great day! 😊
-          </p>  
+          </p>
 
           <p class="text-lg font-bold text-blue-600 border-l-4 border-blue-600 pl-3 mt-6">
             2026 (Current)
@@ -69,7 +69,8 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
             2024
           </p>
           <p>
-            Worked as a frontend developer for 9 months in an outsourcing company in Myanmar, mainly fixing bugs. And also graduated
+            Worked as a frontend developer for 9 months in an outsourcing company in Myanmar, mainly fixing bugs. And
+            also graduated
             with BSc in Computing in Gusto University.
           </p>
         </div>
@@ -80,7 +81,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
     <!-- Section 1 -->
     <section class="my-4 project-card sec-1">
       <div
-        class="bg-slate-800 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
+        class="bg-slate-800 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-cyan-500">
         <img
           class="max-w-[22rem] h-60 mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
           src="/src/assets/img/mirai_project_screenshot.png" loading="lazy"
@@ -112,7 +113,7 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
     <!-- Section 2 -->
     <section class="my-4 project-card sec-2 flex place-content-end">
       <a href="https://github.com/NayAungLin910/nightkite" target="_blank"
-        class="bg-slate-800 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
+        class="bg-slate-800 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-cyan-500">
         <img
           class="max-w-[22rem] mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
           src="/src/assets/img/nightkite-showcase.gif" loading="lazy"
@@ -136,8 +137,8 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
 
     <!-- Section 2 -->
     <section class="my-4 project-card sec-2 flex">
-      <a href="https://github.com/NayAungLin910/nightkite" target="_blank"
-        class="bg-slate-800 duration-300 rounded-lg flex flex-col-reverse items-center md:w-2/3 md:flex-row hover:shadow-lg hover:shadow-slate-700">
+      <a href="https://github.com/NayAungLin910/blue_mail" target="_blank"
+        class="bg-slate-800 duration-300 rounded-lg flex flex-col-reverse items-center md:w-2/3 md:flex-row hover:shadow-lg hover:shadow-cyan-500">
         <div class="p-3 text-justify text-sm">
           <p class="text-xl mx-auto text-center">
             <span class="underline-animate">
@@ -159,8 +160,8 @@ import { BIconGithub, BIconTwitter, BIconEnvelope } from 'bootstrap-icons-vue'
 
     <!-- Section 3 -->
     <section class="my-4 project-card sec-3 flex place-content-end">
-      <a href="https://github.com/NayAungLin910/blue_mail" target="_blank"
-        class="bg-slate-800 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-slate-700">
+      <a href="https://github.com/NayAungLin910/connect-crm" target="_blank"
+        class="bg-slate-800 duration-300 rounded-lg flex items-center md:w-2/3 flex-col md:flex-row hover:shadow-lg hover:shadow-cyan-500">
         <img
           class="max-w-[22rem] mt-2 md:mt-0 rounded-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none"
           src="/src/assets/img/connect-showcase.gif" loading="lazy"
