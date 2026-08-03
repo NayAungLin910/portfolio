@@ -15,7 +15,7 @@ const translations = {
     certificateItem: 'JLPT N1 (Japanese Language Proficiency Test)',
     familiarTechnologiesTitle: 'Familiar Technologies 💻',
     familiarTechnologiesContent: 'JavaScript, TypeScript, Laravel, Vue, React, Java, MySQL',
-    educationTitle: 'Education 📚',
+    educationTitle: 'Education 📚', 
     educationItem: 'ECC Computer College (Graduating in 2028)',
     socialsTitle: 'Socials 🪪',
     hobbiesTitle: 'Hobbies 🏅',
@@ -150,7 +150,7 @@ function resetSectionShadow(event) {
     <div :class="['min-h-screen', themeBackgroundClass]">
       <div class="">
         <div
-          class="fixed top-4 right-4 z-50 flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/90 px-3 py-2 shadow-lg shadow-slate-950/50 backdrop-blur-sm">
+          class="fixed top-4 right-4 z-50 flex flex-wrap items-center justify-end gap-2 rounded-full border border-slate-700 bg-slate-900/90 px-3 py-2 shadow-lg shadow-slate-950/50 backdrop-blur-sm">
         <button class="rounded-full px-3 py-1 text-sm transition"
           :class="locale === 'en' ? 'bg-sky-500 text-slate-900' : 'bg-slate-800 text-white hover:bg-slate-700'"
           @click="locale = 'en'">
@@ -173,12 +173,12 @@ function resetSectionShadow(event) {
         </button>
       </div>
       <div
-        :class="['mx-auto text-center duration-300 p-4 rounded-lg flex md:w-1/2 flex-col gap-3 hover:shadow-lg card-hover-shadow relative z-10', cardThemeClass]">
+        :class="['mx-auto w-full max-w-4xl text-center duration-300 p-4 rounded-lg flex flex-col gap-3 hover:shadow-lg card-hover-shadow relative z-10', cardThemeClass]">
         <div class="flex flex-col">
-          <div class=" flex flex-row justify-around">
-            <img class="rounded-xl max-w-[10rem]" src="/src/assets/img/IMG_0664.jpg" loading="lazy"
+          <div class="flex flex-col items-center gap-4 md:flex-row md:justify-around">
+            <img class="w-full max-w-[10rem] rounded-xl" src="/src/assets/img/IMG_0664.jpg" loading="lazy"
               alt="Portfolio Profile Image" />
-            <div class="section" style="--border-color: 14, 165, 233" @mousemove="handleSectionMouseMove"
+            <div class="section w-full md:w-auto" style="--border-color: 14, 165, 233" @mousemove="handleSectionMouseMove"
               @mouseleave="resetSectionShadow">
               <p class="text-center">{{ t.basicInfoTitle }}</p>
               <table>
@@ -217,8 +217,8 @@ function resetSectionShadow(event) {
               </table>
             </div>
           </div>
-          <div class="flex flex-row justify-around text-left mt-4 gap-[5px]">
-            <div class="section w-fit" style="--border-color: 236, 72, 153" @mousemove="handleSectionMouseMove"
+          <div class="flex flex-col gap-3 text-left mt-4 md:flex-row md:justify-around">
+            <div class="section w-full md:w-fit" style="--border-color: 236, 72, 153" @mousemove="handleSectionMouseMove"
               @mouseleave="resetSectionShadow">
               <p class="text-center">{{ t.certificatesTitle }}</p>
               <ul class="list-disc pl-5 marker:text-sky-500">
@@ -227,14 +227,14 @@ function resetSectionShadow(event) {
                 </li>
               </ul>
             </div>
-            <div class="section w-fit" style="--border-color: 16, 185, 129" @mousemove="handleSectionMouseMove"
+            <div class="section w-full md:w-fit" style="--border-color: 16, 185, 129" @mousemove="handleSectionMouseMove"
               @mouseleave="resetSectionShadow">
               <p class="text-center">{{ t.familiarTechnologiesTitle }}</p>
               {{ t.familiarTechnologiesContent }}
             </div>
           </div>
-          <div class="flex flex-row justify-around text-left mt-4 gap-[5px]">
-            <div class="section w-fit" style="--border-color: 99, 72, 153" @mousemove="handleSectionMouseMove"
+          <div class="flex flex-col gap-3 text-left mt-4 md:flex-row md:justify-around">
+            <div class="section w-full md:w-fit" style="--border-color: 99, 72, 153" @mousemove="handleSectionMouseMove"
               @mouseleave="resetSectionShadow">
               <p class="text-center">{{ t.educationTitle }}</p>
               <ul class="list-disc pl-5 marker:text-sky-500">
@@ -243,7 +243,7 @@ function resetSectionShadow(event) {
                 </li>
               </ul>
             </div>
-            <div class="section w-fit" style="--border-color: 23, 72, 122" @mousemove="handleSectionMouseMove"
+            <div class="section w-full md:w-auto" style="--border-color: 23, 72, 122" @mousemove="handleSectionMouseMove"
               @mouseleave="resetSectionShadow">
               <p class="text-center">{{ t.socialsTitle }}</p>
               <table class="table-auto overflow-scroll">
@@ -280,8 +280,8 @@ function resetSectionShadow(event) {
               </table>
             </div>
           </div>
-          <div class="flex flex-row justify-around text-left mt-4 gap-[5px]">
-            <div class="section w-fit" style="--border-color: 99, 72, 153" @mousemove="handleSectionMouseMove"
+          <div class="flex flex-col gap-3 text-left mt-4 md:flex-row md:justify-around">
+            <div class="section w-full md:w-fit" style="--border-color: 99, 72, 153" @mousemove="handleSectionMouseMove"
               @mouseleave="resetSectionShadow">
               <p class="text-center">{{ t.hobbiesTitle }}</p>
               <ul class="list-disc pl-5 marker:text-sky-500">
