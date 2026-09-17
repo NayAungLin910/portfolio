@@ -13,6 +13,7 @@ const translations = {
     basicInfoTitle: 'Basic Info ℹ️',
     certificatesTitle: 'Certificates 📜',
     certificateItem: 'JLPT N1 (Japanese Language Proficiency Test)',
+    certificateItem2: 'TOEIC Score: 925',
     familiarTechnologiesTitle: 'Familiar Technologies 💻',
     familiarTechnologiesContent: 'JavaScript, TypeScript, Laravel, Vue, React, Java, MySQL',
     educationTitle: 'Education 📚', 
@@ -42,6 +43,7 @@ const translations = {
     basicInfoTitle: '基本情報 ℹ️',
     certificatesTitle: '認定書 📜',
     certificateItem: 'JLPT N1（日本語能力試験）',
+    certificateItem2: 'TOEIC 点数:925',
     familiarTechnologiesTitle: '得意な技術 💻',
     familiarTechnologiesContent: 'JavaScript、TypeScript、Laravel、Vue、React、Java、MySQL',
     educationTitle: '学歴 📚',
@@ -224,6 +226,9 @@ function resetSectionShadow(event) {
               <ul class="list-disc pl-5 marker:text-sky-500">
                 <li>
                   {{ t.certificateItem }}
+                </li>
+                <li>
+                  {{ t.certificateItem2 }}
                 </li>
               </ul>
             </div>
